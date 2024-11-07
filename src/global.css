@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: var(--corPrincipal);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --corPrincipal: #2fd9;
+    --corSecundaria: #db1919;
+    --corBotao: black;
+    --corTexto: black;
+    --corFundoBotao: rgb(68, 122, 204);
+    --corFundoForm: rgb(21, 169, 228);
+}

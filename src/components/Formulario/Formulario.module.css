@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    background-color: var(--corFundoForm);
+}
+
+.pesoAltura{
+    color: var(--corSecundaria);
+    font-weight: bold;
+}
+
+.input {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-size: 21px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.button {
+    max-width: 130px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    font-size: 23px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    color: var(--corBotao);
+    background: var(--corFundoBotao);
+    font-weight: bold;
+}
+
+.resultado {
+    font-size: 20px;
+    color: var(--corSecundaria);
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.classificacao {
+    font-size: 20px;
+    color: var(--corSecundaria);
+    font-weight: bold;
+}
+
+.obsBotao {
+    color: var(--corSecundaria);
+    font-weight: bold;
+    margin-top: -35px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form {
+        max-width: 100%;
+    }
+
+    .input {
+        font-size: 16px;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
